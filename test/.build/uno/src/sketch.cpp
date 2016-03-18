@@ -1,4 +1,10 @@
+#include <Arduino.h>
 #include <Servo.h>
+void setup();
+void loop();
+int smoothFilter(int *buf, int raw, int _index);
+#line 1 "src/sketch.ino"
+//#include <Servo.h>
 
 #define CDS 0
 #define BUF_LENGTH 10 
